@@ -59,7 +59,7 @@ $System_Config['backup_notify']='true';		//备份通知到TG群中
 
 //用户注册设置-----------------------------------------------------------------------------------------
 $System_Config['register_mode'] = 'open';					//注册模式。close：关闭，open：开放，invite：仅限邀请码
-$System_Config['defaultTraffic'] = '1';						//用户初始流量 单位GB
+$System_Config['defaultTraffic'] = '600';						//用户初始流量 单位GB
 $System_Config['user_expire_in_default']='3650';			//用户账户过期时间，在注册时设置。（天）
 $System_Config['user_class_default']='0';					//用户注册等级，在注册时设置。
 $System_Config['user_class_expire_default']='24';			//用户等级过期时间，在注册时设置。（小时）
